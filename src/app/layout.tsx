@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import { UserProvider } from "@/context/UserContext";
 import Footer from "@/components/Footer";
 import { Metadata } from "next";
-import AppWalletProvider from "@/context/AppWalletProvider";
 import FloatingCredit from "@/components/FloatingComponent";
 
 export const metadata: Metadata = {
@@ -26,11 +25,11 @@ export default function RootLayout({
         <UserProvider>
           <div className="max-w-7xl mx-auto">
             <Header />
-            <AppWalletProvider>
+           
               {children}
 
               <FloatingCredit />
-            </AppWalletProvider>
+            
             <Footer />
           </div>
         </UserProvider>
