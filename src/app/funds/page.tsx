@@ -14,7 +14,7 @@ export default function FundsPage() {
         </p>
 
         <a
-          href="https://www.buymeacoffee.com/yourname"
+          href="https://buymeacoffee.com/smartjeremy/e/404447"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-lg"
